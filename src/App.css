@@ -1,6 +1,6 @@
-.App {
-  text-align: center;
-}
+/* .App {
+   text-align: center;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  /* margin-top: 10px; */
+  /* text-align: center; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 10px 15px; */
+  /* border-radius: 30px; */
+  /* width: 80%; */
+}
+.place{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;  border-radius: 50px;
+  width: 60%;
+  position: relative;
+  right: -10%;
+  
 }

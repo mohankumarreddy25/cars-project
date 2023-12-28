@@ -11,3 +11,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+button{
+  background-color: aqua;
+  
+}
+
+.logo>img{
+  height: 50px;
+}
+.carousel-item img{
+  height: 90vh;
+}
+.card img{
+  height: 400px;
+}
+.card-text{
+  color: rgb(36, 163, 243);
+}
+
+/* Default styles for larger screens */
+.service-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .service {
+    padding: 10px;
+  }
+  
+
+  /* Add more responsive styling as needed */
+}
+/* Default styles for larger screens */
+.contact-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-info, .contact-form {
+  flex: 1;
+  margin-right: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .contact-info, .contact-form {
+    flex: 1;
+    margin-right: 0;
+  }
+}
+.bagroungimage{
+  background-image: url(https://www.motorbeam.com/wp-content/uploads/Mahindra-XUV700-5.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 95vh;
+  background-position: center;
+}
+
+
